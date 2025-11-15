@@ -13,7 +13,6 @@ import math
 from time import sleep
 import time
 import random
-from rich.panel import Panel
 from rich.live import Live
 from rich.align import Align
 from rich import box
