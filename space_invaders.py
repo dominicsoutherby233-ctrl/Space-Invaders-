@@ -363,7 +363,7 @@ with console.screen():
     """ Game loop """
     console.rule('[bold purple on white]Space Invaders', 
                  style = 'red', characters= '❌', align='center')   
-    with Live(update_visuals(space_battle), refresh_per_second=10) as Live:
+    with Live(update_visuals(space_battle), refresh_per_second=30) as Live:
 
         " Timer for 'explosion cleanup' "
         timer = False
